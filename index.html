@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Par o Impar</title>
+    <script src="main.js" defer></script> <!-- Vincular el archivo JS -->
+    <script src="script.js" defer></script> 
+    <link rel="stylesheet" href="styles.css"> <!-- Vinculamos el CSS -->
+</head>
+<body>
+  <h1>Ingresar nombre</h1>
+    <button id="checkOtherButton">Ingresar nombre</button> 
+    
+  <h1>Verificar Par o Impar</h1>
+    <button id="checkButton">Verificar Número</button> <!-- Botón para iniciar la verificación -->
+
+    <h1>Ingresar un número mayor a 100</h1>
+    <button id="checkButton2">Ingresar Número+100</button> <!-- Botón para iniciar la verificación -->
+
+      <div class="column">
+          <p>Este es el primer párrafo.</p>
+          <p>Este es el segundo párrafo.</p>
+          <p>Este es el tercer párrafo.</p>
+          <button id="btn1">Cambiar color a azul</button>
+      </div>
+
+      <h1>Ejercicio 2: Formulario con alerta</h1>
+      <form id="formulario"> 
+        <label for="texto">Ingresa un texto: </label>
+        <input type="text" id="texto" required>
+        <button type="submit" id="mostrarAlerta">Mostrar Alerta</button>
+    </form>
+
+    <h1>Ejercicio: Lista con elementos</h1>
+    <ul id="milista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <h1>Ejercicio:Campo de texto y botones</h1>
+      <form id="formulario2"> 
+        <label for="texto">Ingresa un texto: </label>
+        <input type="text" id="campo" required>
+        <button type="button" id="deshabilitarCampo">Deshabilitar Campo</button>
+        <button type="button" id="habilitarCampo">Habilitar Campo</button>
+    </form>
+
+    <div id="contenedor">
+      <h1>Ejercicio LocalStorage</h1>
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" required>
+      <button id="guardarCorreo">Guardar Correo</button>
+
+      <div id="correoGuardado">
+          <p>Correo guardado: <span id="correoMostrado"></span></p>
+          <button id="eliminarCorreo">Eliminar Correo Guardado</button>
+      </div>
+  </div>
+</body>
+</html>
